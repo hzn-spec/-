@@ -1,0 +1,35 @@
+# ========== 抖音 cookies（可能包含登录态，切勿上传） ==========
+douyin_cookies.txt
+cookies.txt
+cookies_from_browser.txt
+*.cookies
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ========== 下载产物 ==========
+# dy.py 的默认/自定义下载目录
+/video/
+/_test_download/
+/_downloads/
+*.mp4
+*.webp
+*.png
+*.jpg
+*.jpeg
+
+# ========== 编辑器 / 工具 ==========
+.vscode/
+.idea/
+.cph/
+*.prob
+
+# ========== 系统 ==========
+Thumbs.db
+Desktop.ini
+.DS_Store
